@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    
+    
+}
+
+body{
+     padding: 15px; /*Define um espaçamento entre TODOS os elementgos da página*/
+}
+
+.hide{
+    display: none;
+}
+
+a, input[type="submit"]{
+    background-color: #007BFF;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none !important;
+    opacity: 7;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  
+   
+    
+}
+
+a:hover, 
+input[type="submit"]{
+    opacity: 1;
+   
+}
+
+from {
+    width: 300px;
+   
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 .5rem 0;
+   
+}
+
+
+form label {
+    font-weight: bold;
+    margin: 0 0 .3rem 0;
+   
+}
+
+form input, 
+form textarea{
+    padding: 5px;
+   
+}
+
+
+#post-blog{
+    background-color: #007BFF;
+    padding: 20px 20px 0 0 ;
+    margin-top: -0.27rem !important;
+}
